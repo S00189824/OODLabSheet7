@@ -20,6 +20,107 @@
                 </Grid>
             </TabItem>
 
+            <TabItem Header="Q2" Width="75">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Button" Width="100" Height="30" Name="Q2Button" Click="Q2Button_Click"/>
+                    <DataGrid Grid.Row="1" Name="Q2GdDisplay"/>
+                    <TextBlock x:Name="Q2TblkCount" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="70"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Q3" Width="75">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Button" Width="100" Height="30" Name="Q3Button" Click="Q3Button_Click"/>
+                    <DataGrid Grid.Row="1" Name="Q3GdDisplay"/>
+                    <TextBlock x:Name="Q3TblkCount" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="70"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Q4" Width="75">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Button" Width="100" Height="30" Name="Q4Button" Click="Q4Button_Click"/>
+                    <DataGrid Grid.Row="1" Name="Q4GdDisplay"/>
+                    <TextBlock x:Name="Q4TblkCount" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="70"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Q5" Width="75">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Button" Width="100" Height="30" Name="Q5Button" Click="Q5Button_Click"/>
+                    <DataGrid Grid.Row="1" Name="Q5GdDisplay"/>
+                    <TextBlock x:Name="Q5TblkCount" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="252"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Q6" Width="75">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="268*"/>
+                        <ColumnDefinition Width="57*"/>
+                        <ColumnDefinition Width="461*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Button" Width="100" Height="30" Name="Q6Button" Click="Q6Button_Click" Grid.Column="2" Margin="18,24,343,24"/>
+                    <DataGrid Grid.Row="1" Name="Q6GdDisplay" Grid.ColumnSpan="3"/>
+                    <TextBlock x:Name="Q6TblkCount" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="70"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Q7" Width="75">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Button" Width="100" Height="30" Name="Q7Button" Click="Q7Button_Click"/>
+                    <DataGrid Grid.Row="1" Name="Q7GdDisplay"/>
+                    <TextBlock x:Name="Q7TblkCount" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="70"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Q8" Width="75">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Button" Width="100" Height="30" Name="Q8Button" Click="Q8Button_Click"/>
+                    <DataGrid Grid.Row="1" Name="Q8GdDisplay"/>
+                    <TextBlock x:Name="Q8TblkCount" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="70"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Q9" Width="75">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="8*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Button" Width="100" Height="30" Name="Q9Button" Click="Q9Button_Click"/>
+                    <DataGrid Grid.Row="1" Name="Q9GdDisplay"/>
+                    <TextBlock x:Name="Q9TblkCount" HorizontalAlignment="Left" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="27" Width="70"/>
+                </Grid>
+            </TabItem>
+
         </TabControl>
     </Grid>
 </Window>
